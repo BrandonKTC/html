@@ -18,9 +18,10 @@ h2 {
 
 h2::after {
 	content: "SALE";
-	font-size: 13px;
-	padding: 10px;
-	background-color: #ff0000;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 7px 15px;
+	background-color: #ec2f2f;
 	color: #fff;
 	display: inline-block;
 	letter-spacing: 2px;
@@ -71,7 +72,7 @@ li {
 	border: none;
 	font-size: 26px;
 	cursor: pointer;
-	width: 100%;
+	width: 101.5%;
 	border-top: 3px solid #000;
 }
 
