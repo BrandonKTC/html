@@ -7,12 +7,26 @@
 	border: 5px solid black;
 	width: 650px;
 	height: 604px;
-	margin: 0 auto;
+	margin: 20px auto;
 }
 
 h2 {
 	text-align: center;
 	text-transform: uppercase;
+	position: relative;
+}
+
+h2::after {
+	content: "SALE";
+	font-size: 13px;
+	padding: 10px;
+	background-color: #ff0000;
+	color: #fff;
+	display: inline-block;
+	letter-spacing: 2px;
+	position: absolute;
+	top: -20px;
+	left: -40px;
 }
 
 h4 {
@@ -64,4 +78,32 @@ li {
 .btn:hover {
 	background-color: #fff;
 	color: #000;
+}
+.list {
+	margin: 10px 0;
+}
+.carre {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+}
+
+.carre:first-child {
+	background-color: #000;
+}
+.carre:nth-child(2) {
+	background-color: blue;
+}
+.carre:nth-child(3) {
+	background-color: red;
+}
+.carre:nth-child(4) {
+	background-color: yellow;
+}
+.carre:nth-child(5) {
+	background-color: greenyellow;
+}
+.carre:last-child {
+	background-color: brown;
 }
