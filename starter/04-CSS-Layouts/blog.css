@@ -17,14 +17,16 @@ body {
 
 .container {
 	/*   background-color: red; */
-	display: flex;
+	/* display: flex; */
 	gap: 40px;
-	justify-content: space-between;
+	/* justify-content: space-between; */
 	margin-top: 10px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
 }
 
 .product-img {
-	flex: 1;
+	/* flex: 1; */
 }
 
 /* PRODUCT */
@@ -45,7 +47,7 @@ body {
 
 /* PRODUCT INFORMATION */
 .product-info {
-	flex: 1;
+	/* flex: 1; */
 }
 
 .product-price {
@@ -125,7 +127,7 @@ body {
 
 /* PRODUCT DETAILS */
 .product-details {
-	flex: 1;
+	/* flex: 1; */
 }
 
 .details-title {
